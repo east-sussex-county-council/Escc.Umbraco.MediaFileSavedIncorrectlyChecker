@@ -43,7 +43,7 @@ namespace Escc.Umbraco.MediaFileSavedIncorrectlyChecker
             IEnumerable<IListBlobItem> blobs = directory.ListBlobs().Where(blob => blob is CloudBlobDirectory).ToList();
 
             // Always get last segment for media sub folder simulation. E.g 1001, 1002
-            return blobs.Cast<CloudBlobDirectory>().Select(cd => new Folder() { Path = cd.Prefix.TrimEnd('/') });
+            return blobs.Cast<CloudBlobDirectory>().Select(cd => new Folder() { Path = cd.Prefix });
         }
     }
 }
