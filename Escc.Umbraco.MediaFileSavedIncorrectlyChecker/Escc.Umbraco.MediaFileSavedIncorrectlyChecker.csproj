@@ -33,10 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Escc.Services, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Escc.Services.3.0.1\lib\Escc.Services.dll</HintPath>
+      <HintPath>..\packages\Escc.Services.3.0.2\lib\Escc.Services.dll</HintPath>
     </Reference>
     <Reference Include="Escc.Services.Azure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Escc.Services.Azure.2.1.1\lib\Escc.Services.Azure.dll</HintPath>
+      <HintPath>..\packages\Escc.Services.Azure.2.1.4\lib\Escc.Services.Azure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
